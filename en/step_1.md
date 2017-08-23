@@ -1,19 +1,36 @@
-## Introduction
+- A Python list is a type of data structure. It can hold collections of any data type, and even a mixture of data types. Here is an example of a list of strings in Python.
 
-Add project description here. What will learners be making?
+	```python
+	band = ['paul', 'john', 'ringo', 'george']
+	```
 
-### What you will make
+- In Python, lists are indexed from 0. That means you talk about the zeroth item in a list. In this case, the zeroth item is `'paul'`.
 
-Add something here to showcase here, for example:
+- To find the value of an item in a list, you simply type the name of the list followed by the index.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+	```python
+	>>> band[0]
+	'paul'
+	>>> band[2]
+	'ringo'
+	```
+- The last item in a Python list also has an index of `-1`.
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+	```python
+	>>> band[3]
+	'george'
+	>>> band[-1]
+	'george'
+	```
 
-### What you will learn
+- This behaviour continues, so you can find out the penultimate item using an index of `-2`, for instance.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+- Sometimes you might have a 2D list, or a "list of lists". To find a specific item, you will have to provide two indices. Here is a list representing a noughts and crosses game.
 
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
+	```python
+	board = [['X', 'O', 'X'],
+			 ['O', 'X', 'O'],
+			 ['O', 'O', 'X']]
+	```
+
+- To find the middle character in this list of lists, you would use `board[1][1]`.

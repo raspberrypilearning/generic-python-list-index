@@ -27,7 +27,7 @@ A Python list is a type of data structure. It can hold collections of any data t
 
 - Moreover, you can find out value of the penultimate item using the index `-2`, and so on.
 
-- Sometimes you might have a two-dimensional list, or a list of lists. To find a specific item, you will have to provide two indices. Here is a list representing a noughts and crosses game:
+- Sometimes you might want to use a two-dimensional list, i.e. a list of lists. To find a specific item, you will have to provide two indices. Here is a list representing a noughts and crosses game:
 
 	```python
 	board = [['X', 'O', 'X'],

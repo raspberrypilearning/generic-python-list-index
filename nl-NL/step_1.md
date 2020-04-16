@@ -1,14 +1,14 @@
-A Python list is a type of data structure. It can hold collections of any data type, and even a mixture of data types.
+Een Python-lijst is een type gegevensstructuur. Het kan verzamelingen van elk gegevenstype bevatten, en zelfs een combinatie van gegevenstypes.
 
-- Here is an example of a list of strings in Python:
+- Hier is een voorbeeld van een lijst met strings in Python:
 
     ```python
     band = ['paul', 'john', 'ringo', 'george']
     ```
 
-- In Python, lists are indexed from `0`. That means you can talk about the zeroth item in a list. In our example, the zeroth item is `'paul'`.
+- In Python worden lijsten geïndexeerd vanaf `0`. Dat betekent dat je kunt praten over het nulde item in een lijst. In ons voorbeeld is het nulde item `'paul'`.
 
-- To find the value of an item in a list, you simply type the name of the list followed by the index.
+- Om de waarde van een item in een lijst te vinden, typ je eenvoudig de naam van de lijst gevolgd door de index.
 
     ```python
     >>> band[0]
@@ -16,7 +16,7 @@ A Python list is a type of data structure. It can hold collections of any data t
     >>> band[2]
     'ringo'
     ```
-- To find the value of the last item in a Python list, you can also use the index `-1`.
+- Om de waarde van het laatste item in een Python-lijst te vinden, kun je ook de index `-1` gebruiken.
 
     ```python
     >>> band[3]
@@ -25,14 +25,14 @@ A Python list is a type of data structure. It can hold collections of any data t
     'george'
     ```
 
-- Moreover, you can find out value of the penultimate item using the index `-2`, and so on.
+- Bovendien kun je de waarde van het voorlaatste item vinden met behulp van de index `-2`, enzovoort.
 
-- Sometimes you might want to use a two-dimensional list, i.e. a list of lists. To find a specific item, you will have to provide two indices. Here is a list representing a noughts and crosses game:
+- Soms wil je misschien een tweedimensionale lijst gebruiken, dat wil zeggen een lijst met lijsten. Om een specifiek item te vinden, moet je twee indices opgeven. Hier is een lijst met een spelletje boter-kaas-en-eieren:
 
     ```python
-    board = [['X', 'O', 'X'],
+    bord = [['X', 'O', 'X'],
              ['O', 'X', 'O'],
              ['O', 'O', 'X']]
     ```
 
-- To find the central character in this list of lists, you would use `board[1][1]`.
+- Om het centrale karakter in deze lijst met lijsten te vinden, gebruik je `bord[1][1]`.

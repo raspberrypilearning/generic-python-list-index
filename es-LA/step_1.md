@@ -1,12 +1,12 @@
-A Python list is a type of data structure. It can hold collections of any data type, and even a mixture of data types.
+Una lista de Python es un tipo de estructura de datos. Puede contener colecciones de cualquier tipo de datos e incluso una mezcla de tipos de datos.
 
-- Here is an example of a list of strings in Python:
+- Aquí hay un ejemplo de una lista de cadenas en Python:
 
     ```python
-    band = ['paul', 'john', 'ringo', 'george']
+    banda = ['paul', 'john', 'ringo', 'george']
     ```
 
-- In Python, lists are indexed from `0`. That means you can talk about the zeroth item in a list. In our example, the zeroth item is `'paul'`.
+- En Python, las listas se indexan desde `0`. Eso significa que puedes hablar sobre el elemento cero en una lista. En nuestro ejemplo, el elemento cero es `'paul'`.
 
 - To find the value of an item in a list, you simply type the name of the list followed by the index.
 

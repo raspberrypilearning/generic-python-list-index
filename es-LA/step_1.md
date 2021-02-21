@@ -8,31 +8,31 @@ Una lista de Python es un tipo de estructura de datos. Puede contener coleccione
 
 - En Python, las listas se indexan desde `0`. Eso significa que puedes hablar sobre el elemento cero en una lista. En nuestro ejemplo, el elemento cero es `'paul'`.
 
-- To find the value of an item in a list, you simply type the name of the list followed by the index.
+- Para encontrar el valor de un elemento en una lista, simplemente escribe el nombre de la lista seguido por el índice.
 
     ```python
-    >>> band[0]
+    >>> banda[0]
     'paul'
-    >>> band[2]
+    >>> banda[2]
     'ringo'
     ```
-- To find the value of the last item in a Python list, you can also use the index `-1`.
+- Para encontrar el valor del último elemento en una lista de Python, también puedes usar el índice `-1`.
 
     ```python
-    >>> band[3]
+    >>> banda[3]
     'george'
-    >>> band[-1]
+    >>> banda[-1]
     'george'
     ```
 
-- Moreover, you can find out value of the penultimate item using the index `-2`, and so on.
+- Más aún, puedes encontrar el valor del penúltimo elemento usando el índice `-2`, y así sucesivamente.
 
-- Sometimes you might want to use a two-dimensional list, i.e. a list of lists. To find a specific item, you will have to provide two indices. Here is a list representing a noughts and crosses game:
+- A veces, tal vez quieras usar una lista de dos dimensiones, es decir, una lista de listas. Para encontrar un elemento específico, tendrás que proporcionar dos índices. Here is a list representing a noughts and crosses game:
 
     ```python
-    board = [['X', 'O', 'X'],
+    tablero = [['X', 'O', 'X'],
              ['O', 'X', 'O'],
              ['O', 'O', 'X']]
     ```
 
-- To find the central character in this list of lists, you would use `board[1][1]`.
+- Para encontrar el carácter central en esta lista de listas, tendrás que usar `tablero[1][1]`.

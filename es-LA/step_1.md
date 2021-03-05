@@ -27,7 +27,7 @@ Una lista de Python es un tipo de estructura de datos. Puede contener coleccione
 
 - Más aún, puedes encontrar el valor del penúltimo elemento usando el índice `-2`, y así sucesivamente.
 
-- A veces, tal vez quieras usar una lista de dos dimensiones, es decir, una lista de listas. Para encontrar un elemento específico, tendrás que proporcionar dos índices. Here is a list representing a noughts and crosses game:
+- A veces, tal vez quieras usar una lista de dos dimensiones, es decir, una lista de listas. Para encontrar un elemento específico, tendrás que proporcionar dos índices. Aquí hay una lista que representa un juego de tres en raya:
 
     ```python
     tablero = [['X', 'O', 'X'],

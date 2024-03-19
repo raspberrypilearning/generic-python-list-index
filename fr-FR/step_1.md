@@ -1,38 +1,38 @@
-A Python list is a type of data structure. It can hold collections of any data type, and even a mixture of data types.
+Une liste Python est un type de structure de données. Elle peut contenir des collections de n'importe quel type de données, et même un mélange de types de données.
 
-- Here is an example of a list of strings in Python:
+- Voici un exemple de liste de chaînes en Python :
 
     ```python
-    band = ['paul', 'john', 'ringo', 'george']
+    groupe = ['paul', 'john', 'ringo', 'george']
     ```
 
-- In Python, lists are indexed from `0`. That means you can talk about the zeroth item in a list. In our example, the zeroth item is `'paul'`.
+- En Python, les listes sont indexées à partir de `0`. On peut donc parler d'élément zéro dans une liste. Dans notre exemple, l'élément zéro est `'paul'`.
 
-- To find the value of an item in a list, you simply type the name of the list followed by the index.
+- Pour trouver la valeur d'un élément dans une liste, il te suffit de taper le nom de la liste suivi de l'index.
 
     ```python
-    >>> band[0]
+    >>> groupe[0]
     'paul'
-    >>> band[2]
+    >>> groupe[2]
     'ringo'
     ```
-- To find the value of the last item in a Python list, you can also use the index `-1`.
+- Pour trouver la valeur du dernier élément d'une liste Python, tu peux également utiliser l'index `-1`.
 
     ```python
-    >>> band[3]
+    >>> groupe[3]
     'george'
-    >>> band[-1]
+    >>> groupe[-1]
     'george'
     ```
 
-- Moreover, you can find out value of the penultimate item using the index `-2`, and so on.
+- Tu peux aussi connaître la valeur de l'avant-dernier élément en utilisant l'index `-2`, et ainsi de suite.
 
-- Sometimes you might want to use a two-dimensional list, i.e. a list of lists. To find a specific item, you will have to provide two indices. Here is a list representing a noughts and crosses game:
+- Parfois, tu peux utiliser une liste à deux dimensions, c'est-à-dire une liste de listes. Pour trouver un élément spécifique, tu devras fournir deux index. Voici une liste représentant un jeu de morpion :
 
     ```python
-    board = [['X', 'O', 'X'],
+    tableau = [['X', 'O', 'X'],
              ['O', 'X', 'O'],
              ['O', 'O', 'X']]
     ```
 
-- To find the central character in this list of lists, you would use `board[1][1]`.
+- Pour trouver le caractère central dans cette liste de listes, tu utiliseras `tableau[1][1]`.
